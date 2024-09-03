@@ -2,9 +2,9 @@ name: Build and Unit Test Dstv reader
 
 on:
   push:
-    branches: [ develop, main ]
+    branches: [ byndyusoft-release ]
   pull_request:
-    branches: [ develop, main ]
+    branches: [ byndyusoft-release ]
 
 jobs:
   build_test_dstv_net:

@@ -2,7 +2,7 @@ name: Publish Packages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ byndyusoft-release ]
     paths:
       - 'DSTV.Net/DSTV.Net.csproj'
       - 'Directory.Build.props'
@@ -28,4 +28,4 @@ jobs:
         uses: brandedoutcast/publish-nuget@v2.5.2
         with:
           PROJECT_FILE_PATH: DSTV.Net/DSTV.Net.csproj
-          NUGET_KEY: ${{secrets.PUBLISH_TO_NUGET_ORG}}
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}

@@ -2,18 +2,18 @@
     <PropertyGroup>
 		<Copyright>Copyright (c) Baseflow. All rights reserved</Copyright>
 		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-		<PackageProjectUrl>https://github.com/Baseflow/DSTV.Net</PackageProjectUrl>
-		<Authors>Baseflow</Authors>
+		<PackageProjectUrl>https://github.com/Byndyusoft/Byndyusoft.DSTV.Net</PackageProjectUrl>
+		<Authors>Byndyusoft</Authors>
 		<Owners>Baseflow</Owners>
 		<PackageTags>DSTV, Tekla, NC, NC1, SVG, Steel, Plates</PackageTags>
-		<PackageReleaseNotes>https://github.com/Baseflow/DSTV.Net/releases</PackageReleaseNotes>
+		<PackageReleaseNotes>https://github.com/Byndyusoft/Byndyusoft.DSTV.Net</PackageReleaseNotes>
 		<PackageReadmeFile>readme.md</PackageReadmeFile>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 		<NeutralLanguage>en-US</NeutralLanguage>
 		<MinClientVersion>2.14</MinClientVersion>
 
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
-		<RepositoryUrl>https://github.com/Baseflow/DSTV.Net</RepositoryUrl>
+		<RepositoryUrl>https://github.com/Byndyusoft/Byndyusoft.DSTV.Net</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<Product>$(AssemblyName) ($(TargetFramework))</Product>
 		<Nullable>enable</Nullable>
